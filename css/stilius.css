@@ -1,0 +1,369 @@
+body {
+  background: #E6E6E6;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Trebuchet MS, Trebuchet MS Bold, sans-serif;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400; }
+
+h2 {
+  color: #000;
+  font-weight: 700;
+  font-family: TimesNewRoman, Times New Roman, Times, Georgia, serif;
+  margin: 0;
+  font-size: 37px; }
+
+h3 {
+  color: #000;
+  font-weight: 700;
+  font-family: TimesNewRoman, Times New Roman, Times, Georgia, serif;
+  margin: 0;
+  font-size: 24px; }
+
+a {
+  text-decoration: none; }
+
+main, .footer-content, .header-content {
+  max-width: 1040px;
+  margin: auto;
+  width: 100%; }
+
+.footer-content {
+  max-width: 1000px; }
+
+header {
+  height: 100%;
+  background-color: #D3135A;
+  position: relative;
+  margin-bottom: 20px; }
+  header h1 {
+    font-size: 60px;
+    color: #FFC2DD;
+    padding: 40px 20px 0;
+    margin: 0;
+    font-family: Trebuchet MS, Trebuchet MS Bold, sans-serif;
+    font-weight: bold; }
+    @media screen and (max-width: 701px) {
+      header h1 {
+        float: none;
+        font-size: 40px;
+        padding: 20px 20px 0; } }
+    @media screen and (max-width: 454px) {
+      header h1 {
+        padding: 0 20px; } }
+  header nav {
+    text-align: right;
+    font-size: 14px; }
+  header nav ul li {
+    padding: 5px; }
+
+.virsutinis-meniu {
+  padding: 20px 5px 0 0; }
+  @media screen and (max-width: 454px) {
+    .virsutinis-meniu {
+      float: none;
+      padding: 10px 20px 0 0; } }
+  .virsutinis-meniu a {
+    color: #000; }
+
+section {
+  float: left;
+  width: 70%; }
+  @media screen and (max-width: 1000px) {
+    section {
+      width: 100%; } }
+
+aside {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 28%; }
+  @media screen and (min-width: 700px) and (max-width: 1000px) {
+    aside {
+      float: left;
+      margin: 20px;
+      width: 93%; } }
+  @media screen and (max-width: 699px) {
+    aside {
+      float: left;
+      margin: 20px;
+      width: auto; } }
+
+.section-content {
+  background-color: #FFF;
+  padding: 20px;
+  margin: 20px; }
+
+article.blokas-desinej, div.blokas-kairej {
+  background-color: #FFF;
+  padding: 20px;
+  width: 40%;
+  height: 160px; }
+  @media screen and (max-width: 701px) {
+    article.blokas-desinej, div.blokas-kairej {
+      width: auto;
+      float: none;
+      margin: 20px; } }
+
+.blokas-kairej {
+  float: left;
+  margin: 0 10px 0 20px; }
+
+footer {
+  background-color: #666666;
+  color: #B3B3B3;
+  height: 100%;
+  padding: 20px; }
+  footer a {
+    color: #FFF;
+    text-decoration: none; }
+  footer p {
+    width: 85%;
+    font-size: 12px; }
+    @media screen and (max-width: 768px) {
+      footer p {
+        width: 100%; } }
+  footer nav {
+    padding-bottom: 10px; }
+    footer nav a {
+      font-size: 12px; }
+      footer nav a:after {
+        content: "";
+        border-right: 1px solid #FFF;
+        font-size: 8px;
+        padding-right: 10px; }
+    footer nav li:last-child a:after {
+      border-right: none; }
+  footer h2 {
+    font-family: Trebuchet MS, Trebuchet MS Bold, sans-serif;
+    padding-top: 20px;
+    text-align: right;
+    margin-top: -70px; }
+    @media screen and (max-width: 768px) {
+      footer h2 {
+        margin-top: 0; } }
+  footer h2 a {
+    font-size: 31px; }
+
+.main-menu {
+  bottom: 0;
+  position: absolute;
+  max-width: 1040px;
+  width: 100%;
+  font-size: 20px; }
+  @media screen and (min-width: 455px) and (max-width: 701px) {
+    .main-menu {
+      float: none; } }
+  @media screen and (max-width: 454px) {
+    .main-menu {
+      display: none; } }
+  .main-menu a {
+    color: #FFF; }
+    .main-menu a:hover, .main-menu a:active {
+      color: #333333; }
+  .main-menu li:hover ul {
+    display: block; }
+  .main-menu li ul {
+    position: absolute;
+    display: none;
+    width: inherit; }
+    .main-menu li ul li {
+      display: block; }
+  .main-menu ul li {
+    padding: 10px; }
+    .main-menu ul li:hover > a {
+      color: #333333; }
+  .main-menu ul a {
+    color: #FFF; }
+    .main-menu ul a:hover {
+      color: #333333; }
+  .main-menu ul ul {
+    display: none;
+    background-color: #4d4d4d;
+    position: absolute;
+    width: 150px;
+    margin-left: -30px;
+    margin-top: 10px; }
+    @media screen and (min-width: 455px) and (max-width: 701px) {
+      .main-menu ul ul {
+        width: 200px;
+        margin-left: 0; } }
+    .main-menu ul ul li {
+      display: inherit;
+      text-align: left;
+      padding: 0 10px 0; }
+      .main-menu ul ul li:hover {
+        background-color: #666666; }
+      @media screen and (min-width: 455px) and (max-width: 701px) {
+        .main-menu ul ul li {
+          padding: 10px; } }
+      .main-menu ul ul li a {
+        font-size: 12px;
+        padding: 10px 0;
+        color: #FFF; }
+        .main-menu ul ul li a:hover {
+          color: #FFF; }
+        @media screen and (min-width: 455px) and (max-width: 701px) {
+          .main-menu ul ul li a {
+            font-size: 16px; } }
+    .main-menu ul ul:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: -10px;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #4d4d4d; }
+      @media screen and (min-width: 455px) and (max-width: 701px) {
+        .main-menu ul ul:after {
+          left: 20%; } }
+
+aside h3 {
+  border-bottom: 3px solid #000;
+  padding-bottom: 10px;
+  margin: 0; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+li {
+  display: inline-block; }
+
+.clear {
+  clear: both; }
+
+.column {
+  padding: 10px; }
+
+.blokas-desinej {
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px; }
+  .blokas-desinej li {
+    border-bottom: 1px solid #666666;
+    width: 100%;
+    padding: 10px 0; }
+    .blokas-desinej li a {
+      color: #0071bc; }
+    .blokas-desinej li:last-child {
+      border-bottom: none; }
+
+.blokas-apacioj {
+  max-width: 1040px;
+  background-color: #CCCCCC;
+  padding: 20px;
+  margin: 20px; }
+  .blokas-apacioj ul {
+    display: table;
+    width: 100%;
+    list-style: none; }
+    .blokas-apacioj ul li {
+      display: table-cell;
+      vertical-align: middle; }
+      @media screen and (max-width: 454px) {
+        .blokas-apacioj ul li {
+          display: inline-block; } }
+
+input, textarea {
+  width: 95%;
+  padding: 5px;
+  border: 1px solid #666666;
+  margin-top: 5px; }
+
+textarea {
+  resize: none;
+  height: 130px; }
+
+label {
+  color: #000; }
+
+.forma {
+  border: 1px solid #666666;
+  padding: 10px 20px; }
+  .forma div {
+    padding: 10px 0; }
+  .forma p {
+    margin: 0;
+    color: red; }
+
+button {
+  border: medium none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #D3135A;
+  color: #fff;
+  font-weight: 700; }
+
+input:focus, textarea:focus, textarea:focus {
+  border: 1px solid red; }
+
+.resp-menu {
+  margin: 20px 0 0 20px;
+  position: relative;
+  color: #FFF;
+  font-weight: bold;
+  padding-bottom: 20px; }
+  @media screen and (max-width: 455px) {
+    .resp-menu {
+      display: block; } }
+  @media screen and (min-width: 454px) {
+    .resp-menu {
+      display: none; } }
+  .resp-menu:after {
+    content: "";
+    background: url("nav.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px; }
+
+.main-menu-resp ul li {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px; }
+  .main-menu-resp ul li:hover > a {
+    background-color: #666666; }
+  .main-menu-resp ul li a {
+    font-size: 16px;
+    padding: 10px;
+    color: #FFF; }
+.main-menu-resp ul ul {
+  display: none; }
+  .main-menu-resp ul ul li {
+    width: 100%; }
+    .main-menu-resp ul ul li:hover {
+      background-color: #4D4D4D; }
+
+.main-menu-resp > ul {
+  display: none;
+  background-color: #4D4D4D;
+  position: absolute;
+  width: 100%; }
+
+.site-title {
+  width: 280px;
+  height: 110px;
+  position: relative;
+  z-index: 1;
+  margin-top: -40px; }
+  @media screen and (max-width: 454px) {
+    .site-title {
+      width: auto;
+      height: auto;
+      margin-top: 0; } }
+  @media screen and (max-width: 701px) {
+    .site-title {
+      z-index: 0; } }
+
+/*# sourceMappingURL=stilius.css.map */
