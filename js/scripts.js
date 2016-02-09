@@ -53,7 +53,11 @@ function checkForm(form) {
 	}
 return true;
 };
-		
+	
+//check is this a mobile browser
+function is_touch_device() {
+return !!('ontouchstart' in window);
+};	
 $(document).ready(function(){ 
 	/* If mobile browser, prevent click on parent nav item from redirecting to URL */
 	if(is_touch_device()) {	
@@ -64,10 +68,4 @@ $(document).ready(function(){
 			});
 		});
 	}
-	
 });
-
-//check is this a mobile browser
-function is_touch_device() {
-return !!('ontouchstart' in window);
-};
