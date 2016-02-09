@@ -1,10 +1,11 @@
-devbridge.com uşduotis:
-1. Turi bûti semantiğkai panaudoti html5 tag’ai.
+devbridge.com uÅ¾duotis:
+Reikalavimai:
+1. Turi bÅ«ti semantiÅ¡kai panaudoti html5 tagâ€™ai.
 3. Turi validuotis html.
-4. Puslapis turi bûti pratestuotas ant moderniø narğykliø kaip Chrome ar Firefox ir IE nuo 8 versijos.
-5. CSS framework’ai kaip Bootstrap ar Foundation NEturëtø bûti naudojami.
-6. Integruoti responsive layout’a.
-7. Ádiegti formos js validacijà.
+4. Puslapis turi bÅ«ti pratestuotas ant moderniÅ³ narÅ¡ykliÅ³ kaip Chrome ar Firefox ir IE nuo 8 versijos.
+5. CSS frameworkâ€™ai kaip Bootstrap ar Foundation NEturÄ—tÅ³ bÅ«ti naudojami.
+6. Integruoti responsive layoutâ€™a.
+7. Ä®diegti formos js validacijÄ….
 
 Privalumai: 
 1. Sass panaudojimas.
